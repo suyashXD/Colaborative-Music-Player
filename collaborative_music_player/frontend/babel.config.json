@@ -1,0 +1,16 @@
+//babel loader hai ye gajju ka
+//last wala async aur await ke liye
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node":"16.13.2"
+                }
+            }
+        ],
+        "@babel/preset-react"
+    ],
+    "plugins": ["@babel/plugin-proposal-class-properties"]
+}
